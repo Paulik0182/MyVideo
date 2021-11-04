@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_main"
+        android:title="@string/film_navigate"
+        android:icon="@drawable/ic_list_black"/>
+    <item
+        android:id="@+id/navigation_favorite"
+        android:title="@string/favorites_navigate"
+        android:icon="@drawable/ic_favorite_heart_white"/>
+    <item
+        android:id="@+id/navigation_search"
+        android:title="@string/search_navigate"
+        android:icon="@drawable/ic_search_black"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="@string/settings_navigate"
+        android:icon="@drawable/ic_settings_black"/>
+
+</menu>
